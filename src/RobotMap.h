@@ -39,11 +39,11 @@ public:
 	static std::shared_ptr<frc::SpeedControllerGroup> drivePIDRight;
 	static std::shared_ptr<frc::DifferentialDrive> drivePIDDifferentialDrive1;
 	static std::shared_ptr<WPI_TalonSRX> armArm1;
-	static std::shared_ptr<WPI_TalonSRX> armArm2;
 	static std::shared_ptr<frc::AnalogInput> armArmAngle;
 	static std::shared_ptr<WPI_TalonSRX> intakeIntakeLeft;
 	static std::shared_ptr<WPI_TalonSRX> intakeIntakeRight;
 	static std::shared_ptr<frc::Solenoid> intakeOpenIntake;
+	static std::shared_ptr<frc::DigitalInput> intakeIntakeSwitch;
 	static std::shared_ptr<WPI_TalonSRX> climbClimb;
 	static std::shared_ptr<frc::Solenoid> climbClimbRelease;
 	static std::shared_ptr<frc::Compressor> waveCompressorCompressorSubsystem;

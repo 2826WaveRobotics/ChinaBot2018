@@ -1,0 +1,8 @@
+
+*.o
+*.cpp~
+*.h~
+*.xml~
+.project~
+.cproject~
+*.properties~
